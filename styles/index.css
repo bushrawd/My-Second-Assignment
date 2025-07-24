@@ -1,0 +1,46 @@
+/* shared styles */
+.display-flex{
+    display:flex;
+}
+.text-gray{
+    color: rgba(137, 135, 161, 1);
+}
+.bg-light{
+    background-color: rgba(255, 255, 255, 1);
+}
+/* .navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: 135;
+    height: 82px;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar, .banner{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .hide-on-mobile
+   .navbar
+    .nav-link 
+    .logo {
+     display: none;
+     padding: 15px 5%;
+     justify-content: flex-end;
+     width: 100%;
+     flex: 1;
+    }
+}
+   
+  

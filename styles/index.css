@@ -6,7 +6,7 @@
     color: rgba(137, 135, 161, 1);
 }
 .bg-light{
-    background-color: rgba(255, 255, 255, 1);
+    background-color:rgba(255, 255, 255, 1);
 }
 /* .navbar related styles */
 .navbar{
@@ -30,6 +30,44 @@
     margin: 0 auto;
 }
 
+/* banner things */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.highlight {
+  color: #e27129;
+  font-weight: bold;
+}
+
+.hero-text p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+}
+/* navbar media query */
 @media (max-width: 768px) {
   .hide-on-mobile
    .navbar
@@ -42,5 +80,3 @@
      flex: 1;
     }
 }
-   
-  
